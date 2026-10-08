@@ -1,0 +1,35 @@
+NEY ORIENTAL - INSTALLATION
+
+WINDOWS (FL Studio)
+1. Copiez le dossier "Ney Oriental.vst3" dans :
+   C:\Program Files\Common Files\VST3
+2. Ouvrez FL Studio > Options > Manage plugins > Find installed plugins.
+3. Le plugin apparait sous "Ney Oriental" (categorie Generators / Instruments). Cochez l'etoile pour le mettre en favori.
+4. Chargez-le dans le Channel Rack comme n'importe quel instrument.
+
+MAC (FL Studio)
+1. Copiez "Ney Oriental.vst3" dans :
+   Macintosh HD/Bibliotheque/Audio/Plug-Ins/VST3
+   (et, si vous voulez aussi l'Audio Unit, "Ney Oriental.component" dans .../Plug-Ins/Components)
+2. Le plugin n'est pas signe par un compte developpeur Apple. Ouvrez l'application Terminal et collez :
+   sudo xattr -cr "/Library/Audio/Plug-Ins/VST3/Ney Oriental.vst3"
+   sudo xattr -cr "/Library/Audio/Plug-Ins/Components/Ney Oriental.component"
+3. FL Studio > Options > Manage plugins > Find installed plugins.
+   Utilisez la version VST3 sur Mac comme sur Windows : vos projets restent compatibles entre les deux.
+
+JOUER
+- Le plugin est monophonique et lie par defaut : jouez les notes en les faisant se chevaucher
+  pour obtenir les glissements de doigts du ney. Detachez-les pour reattaquer avec le souffle.
+- Velocite = force du souffle et de l'attaque. Molette de modulation = vibrato.
+  CC2 ou aftertouch = souffle pendant la note. CC11 = expression. Pitch bend reglable de 1 a 12 demi-tons.
+- OVERBLOW : plus le bouton est haut, plus les notes jouees fort "octavient" a l'attaque avant de retomber.
+  A fond, l'instrument reste dans le registre aigu (une octave au-dessus).
+
+QUARTS DE TON (MAQAM)
+- Choisissez un maqam et sa tonique : les notes concernees sont abaissees d'un quart de ton sur le clavier.
+    Rast          : la tierce et la septieme (sur do : mi et si)
+    Bayati / Saba : la seconde (sur re : mi)
+    Hijaz         : seconde augmentee resserree (pas de quart de ton)
+  Nahawand et Kurd se jouent en "Tempere". Le Sikah se joue avec le Rast, en partant de sa tierce.
+- Pour un accordage libre, tirez les barres vers le haut ou le bas (de -50 a +50 cents) :
+  le maqam passe sur "Personnalise". Double-clic sur une note = retour a 0.
